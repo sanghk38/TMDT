@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="false"
+    tools:context=".WomenActivity">
+
+    <!-- android:theme="@style/AppTheme.AppBarOverlay" -->
+    <!-- Title -->
+    <!-- Content -->
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgcheck"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingClass,MissingConstraints">
+
+        <ImageView
+            android:id="@+id/newback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/backk" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="75dp"
+            android:gravity="center"
+            android:text="Sản phẩm"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <!--        <AutoCompleteTextView-->
+        <!--            android:id="@+id/atc_product_search"-->
+        <!--            android:layout_marginLeft="30dp"-->
+        <!--            android:layout_width="130dp"-->
+        <!--            android:layout_height="50dp"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:gravity="center"-->
+        <!--            android:textAlignment="center"-->
+        <!--            android:textColor="@color/black"-->
+        <!--            android:textSize="15dp"-->
+        <!--            android:background="@drawable/custom_edit_text_search"-->
+        <!--            app:actionViewClass="androidx.appcompat.widget.SearchView"-->
+        <!--            android:drawableRight="@drawable/ic_baseline_search_24"-->
+        <!--            android:hint="Bạn tìm gì"-->
+        <!--            app:showAsAction="always"-->
+        <!--            android:textStyle="bold" ></AutoCompleteTextView>-->
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <ListView
+        android:id="@+id/listviewthoitrangnu"
+        android:layout_width="match_parent"
+        android:layout_height="675dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/sanpham"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/rouber"
+        app:itemIconTint="@color/nav_color"
+        app:itemTextColor="@color/nav_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/menusp"
+        tools:ignore="MissingClass,MissingConstraints" />
+</LinearLayout>

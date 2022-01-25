@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/man"
+        android:title=""
+        android:icon="@drawable/men"/>
+    <item
+        android:id="@+id/women"
+        android:title=""
+        android:icon="@drawable/women"/>
+    <item
+        android:id="@+id/phukien"
+        android:title=""
+        android:icon="@drawable/balo"/>
+    <item
+        android:id="@+id/thuonghieu"
+        android:title=""
+        android:icon="@drawable/thoitrang"/>
+</menu>
