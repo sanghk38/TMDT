@@ -1,0 +1,23 @@
+<!--<resources>-->
+<!--    <string name="app_name">MyMobile Application</string>-->
+<!--    &lt;!&ndash; TODO: Remove or change this placeholder text &ndash;&gt;-->
+<!--    <string name="hello_blank_fragment">Hello blank fragment</string>-->
+<!--</resources>-->
+<resources>
+    <string name="app_name">Android Login</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="hint_name">Họ Và Tên</string>
+    <string name="login">Đăng nhập</string>
+    <string name="register">Đăng ký</string>
+    <string name="btn_link_to_register">Bạn chưa có tài khoản ? Hãy đăng ký </string>
+    <string name="btn_link_to_login">Bạn đã có tài khoản.</string>
+    <string name="welcome">Chào mừng</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="change_password">Đổi mật khẩu</string>
+    <string name="old_password">Mật khẩu cũ</string>
+    <string name="new_password">Mật khẩu mới</string>
+    <string name="facebook_app_id">481465073192247</string>
+    <string name="fb_login_protocol_scheme">fb481465073192247</string>
+    <string name="client_id">8751680871-ocplnhti4q3v49udpqudq2ane1t82h03.apps.googleusercontent.com</string>
+</resources>
